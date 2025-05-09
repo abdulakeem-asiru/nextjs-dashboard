@@ -108,6 +108,7 @@ export async function authenticate(
         else
           return 'Something went wrong.';
       }
+      redirect("/dashboard")
     }
     throw Error;
   }
