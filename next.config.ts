@@ -5,10 +5,4 @@ const nextConfig: NextConfig = {
     ignoreDuringBuilds: true,
   }
 };
-
-module.exports = {
-  eslint: {
-    dirs: ['pages', 'utils'], 
-  },
-}
 export default nextConfig;

@@ -18,7 +18,7 @@ invoice, customers,
   invoice: InvoiceForm;
   customers: CustomerField[];
 }) {
-   const initialState: State = {message : null, error : {}}
+   const initialState: State = {message : null, errors : {}}
    const updateInvoiceWithId = updateInvoice.bind(null, invoice.id);
    const [state, formAction] = useActionState(updateInvoiceWithId, initialState);
 
