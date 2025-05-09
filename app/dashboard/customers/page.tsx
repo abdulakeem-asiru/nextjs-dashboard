@@ -1,6 +1,11 @@
-export default function ()
-{
-    return(
-        <h1>Customer</h1>
-    )
+import React from 'react'
+
+function page() {
+  return (
+    <div>
+      Customers
+    </div>
+  )
 }
+
+export default page
