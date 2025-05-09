@@ -6,4 +6,9 @@ const nextConfig: NextConfig = {
   }
 };
 
+module.exports = {
+  eslint: {
+    dirs: ['pages', 'utils'], 
+  },
+}
 export default nextConfig;
